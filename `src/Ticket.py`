@@ -1,0 +1,11 @@
+```python
+class Ticket:
+    def __init__(self, ticket_id, client, description):
+        self.ticket_id = ticket_id
+        self.client = client
+        self.description = description
+        self.status = "Новое"
+    
+    def change_status(self, new_status):
+        self.status = new_status
+        print(f"Статус обращения {self.ticket_id} изменён на {new_status}")
