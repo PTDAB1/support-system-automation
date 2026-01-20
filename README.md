@@ -15,6 +15,6 @@
 
 ## Установка и запуск
 ```bash
-git clone https://github.com/твой-логин/support-system-automation.git
+git clone https://github.com/voronin/support-system-automation.git
 cd support-system-automation
 # дальше инструкции по запуску
